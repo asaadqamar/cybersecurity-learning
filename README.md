@@ -16,9 +16,9 @@ I'm a developer pivoting into cybersecurity. This repository is my public learni
 | ⬜ Goal | Cybersecurity internship (AppSec / SOC) | Target: Q3 2026 |
 
 **Current study pace:** 40 hours/week  
-**TryHackMe profile:** [link to your THM profile]  
-**Blog (longer writeups):** [your Hashnode link]  
-**LinkedIn:** [your new cyber LinkedIn]
+**TryHackMe profile:** [Asaad Qamar](https://tryhackme.com/p/asaadqamar)  
+**Blog (longer writeups):** [Lab Findings & Learning Blogs](asaadqamar.hashnode.dev) 
+**LinkedIn:** [LinkedIn](www.linkedin.com/in/asaad-qamar)
 
 ---
 
@@ -40,11 +40,9 @@ cybersecurity-learning/
 
 ## 🧠 My Background (Why This Repo Exists)
 
-I spent 6 years building web apps — WordPress, Shopify, React, REST APIs, third-party integrations. I've configured DNS, installed SSL certificates, built authenticated API systems, and shipped production code used by thousands of people.
+I spent 6 years building web apps in WordPress, Shopify, React, REST APIs, third-party integrations. I've built authenticated API systems, and shipped production code used by thousands of people.
 
-I never thought seriously about how those systems could be attacked. That changes now.
-
-My developer background means I already understand how these systems are *built*. This repo is where I learn how they're *broken* — and how to defend them.
+My developer background means I already understand how these systems are *built*. This repo is where I learn how they're *Secured*.
 
 ---
 
@@ -60,8 +58,8 @@ My developer background means I already understand how these systems are *built*
 
 ## 🤝 Connect
 
-If you're also pivoting into cybersecurity from development, or you're already in the field and want to share advice — I'd genuinely appreciate connecting.
+If you're also pivoting into cybersecurity from development, or you're already in the field and want to share advice, I'd genuinely appreciate connecting.
 
-- 💼 LinkedIn: [your LinkedIn]
-- 📝 Blog: [your Hashnode]
-- 🎯 TryHackMe: [your THM profile]
+- 💼 LinkedIn: [www.linkedin.com/in/asaad-qamar]
+- 📝 Blog: [asaadqamar.hashnode.dev]
+- 🎯 TryHackMe: [tryhackme.com/p/asaadqamar]
