@@ -171,3 +171,78 @@ It has **7 layers**, from Layer 7 to Layer 1. As data moves down the layers, eac
 - Provides network services to applications.
 - Examples: HTTP, HTTPS, DNS, FTP, SMTP.
 - Applications such as browsers and FileZilla operate here.
+
+## Packets & Frames
+
+### Packet
+
+- A packet is a small piece of data at the **Network Layer (Layer 3)**.
+- Contains a header and payload.
+- Uses IP addresses to identify source and destination devices.
+
+### Frame
+
+- When a packet moves to the **Data Link Layer (Layer 2)**, it is encapsulated into a frame.
+- A frame contains source and destination **MAC addresses**.
+- Frames are used for communication on the local network.
+
+## TCP/IP (Three-Way Handshake)
+
+- TCP is used to establish a reliable connection between devices.
+- It ensures both client and server are reachable before data transfer begins.
+
+### Three-Way Handshake
+
+1. **SYN** → Client sends a synchronization request.
+2. **SYN/ACK** → Server acknowledges the request.
+3. **ACK** → Client confirms the connection.
+
+After this, data transfer can begin.
+
+### Other TCP Flags
+
+- **SYN** → Start a connection.
+- **ACK** → Acknowledge received data.
+- **PSH** → Push data immediately.
+- **FIN** → Gracefully close a connection.
+- **RST** → Abort a connection due to an error.
+
+## UDP/IP
+
+- UDP is a **stateless** and **connectionless** protocol.
+- No handshake is required before communication.
+- Faster than TCP but does not guarantee delivery.
+- Commonly used in gaming, streaming, VoIP, and DNS.
+
+A UDP packet typically contains:
+
+- Source Port
+- Destination Port
+- Length
+- Checksum
+- Data
+
+## Ports 101
+
+- Ports help identify which service or application should receive data.
+- Each service usually listens on a specific port.
+
+### Common Ports
+
+| Port | Protocol |
+|--------|----------|
+| 21 | FTP |
+| 22 | SSH |
+| 23 | Telnet |
+| 25 | SMTP |
+| 53 | DNS |
+| 80 | HTTP |
+| 110 | POP3 |
+| 143 | IMAP |
+| 443 | HTTPS |
+
+### Why Ports Matter in Cybersecurity
+
+- Port scanning helps identify running services.
+- Open ports can expose attack surfaces.
+- Firewalls use ports to allow or block traffic.
