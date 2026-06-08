@@ -2,7 +2,7 @@
 
 > 6 years as a web developer. Now learning to break what I used to build.
 
-I'm a developer pivoting into cybersecurity. This repository is my public learning log — every concept I study, every tool I try, every room I complete gets documented here. No gatekeeping, no polished-up summaries. Just real notes from someone learning in public.
+I'm a developer pivoting into cybersecurity. This repository is my public learning log, every concept I study, every tool I try, every room I complete gets documented here.
 
 ---
 
@@ -16,8 +16,8 @@ I'm a developer pivoting into cybersecurity. This repository is my public learni
 | ⬜ Goal | Cybersecurity internship (AppSec / SOC) | Target: Q3 2026 |
 
 **Current study pace:** 40 hours/week  
-**TryHackMe profile:** [Asaad Qamar](https://tryhackme.com/p/asaadqamar)  
-**Blog (longer writeups):** [Lab Findings & Learning Blogs](asaadqamar.hashnode.dev) 
+**TryHackMe profile:** [Asaad Qamar](https://tryhackme.com/p/asaadqamar)
+**Blog (longer writeups):** [Lab Findings & Learning Blogs](asaadqamar.hashnode.dev)
 **LinkedIn:** [LinkedIn](www.linkedin.com/in/asaad-qamar)
 
 ---
@@ -60,6 +60,6 @@ My developer background means I already understand how these systems are *built*
 
 If you're also pivoting into cybersecurity from development, or you're already in the field and want to share advice, I'd genuinely appreciate connecting.
 
-- 💼 LinkedIn: [www.linkedin.com/in/asaad-qamar]
-- 📝 Blog: [asaadqamar.hashnode.dev]
-- 🎯 TryHackMe: [tryhackme.com/p/asaadqamar]
+- 💼 LinkedIn: [LinkedIn](https://www.linkedin.com/in/asaad-qamar)
+- 📝 Blog: [Lab Findings & Learning Blogs](https://asaadqamar.hashnode.dev)
+- 🎯 TryHackMe: [Asaad Qamar](https://tryhackme.com/p/asaadqamar)
