@@ -79,3 +79,30 @@ So:
 ```text
 11000000 = 192
 ```
+
+## LAN (Local Area Network)
+### Topologies of LAN
+- Star Toplogy, Most commonly used (Rely on Stwich)
+- Bus & Ring Topology
+
+### Stwich
+- Modren version of Hub
+- Sends data only to the intended device using MAC addresses (HUb used to send data from one to all other devices)
+- Has ports each connected to a device
+
+### Subnetting
+- It's splitting network to smaller piece.
+- To improve acess control, traffic managment and security
+- IP addresses are divided into Network and Host portions using a subnet mask
+
+### ARP (Address Resolution Protocol)
+- It is used to find the MAC address associated with an IP address on a local network
+- It send two types of messages ARP Request & ARP Reply
+- ARP Request Ask for identification 
+- ARP Reply contains the MAC address of the requested IP address
+
+### DHCP (Dynamic Host configration protocol)
+- If an IP is not assigned to a device manually, - DHCP Discover packet is broadcast by a client to find available DHCP servers
+- DHCP Offer packet provides the IP
+- DHCP Request packet asks to use the offered IP address
+- DHCP ACK packet confirms the IP assignment and completes the process
