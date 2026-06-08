@@ -106,3 +106,68 @@ So:
 - DHCP Offer packet provides the IP
 - DHCP Request packet asks to use the offered IP address
 - DHCP ACK packet confirms the IP assignment and completes the process
+
+
+## OSI Model (Open System Interconnection)
+
+The OSI Model is a critical model that explains how network devices send, receive, and interpret data.
+
+It has **7 layers**, from Layer 7 to Layer 1. As data moves down the layers, each layer adds its own information to the data. This process is called **encapsulation**.
+
+### Physical Layer
+
+- Refers to the physical components used in networking.
+- Examples: Ethernet cables, fiber cables, switches, hubs.
+- Sends data as binary (0s and 1s).
+
+### Data Link Layer
+
+- Focuses on physical addressing using **MAC addresses**.
+- Receives data from the Network Layer.
+- Adds source and destination MAC addresses.
+- Prepares data in a suitable format for transmission over the physical medium.
+
+### Network Layer
+
+- Responsible for logical addressing and routing.
+- Assigns and uses **IP addresses**.
+- Finds the best path to the destination.
+- Handles packet fragmentation when required.
+- Routers operate at **OSI Layer 3**.
+
+### Transport Layer
+
+- Responsible for end-to-end communication between applications.
+- Uses **TCP** and **UDP** protocols.
+- Uses **port numbers** to identify services and applications.
+
+#### TCP (Transmission Control Protocol)
+
+- Reliable and connection-oriented.
+- Guarantees accurate and ordered delivery of data.
+- Used in web browsing, file downloads, and emails.
+
+#### UDP (User Datagram Protocol)
+
+- Fast and connectionless.
+- Does not guarantee delivery of data.
+- Commonly used in gaming, streaming, and VoIP.
+
+### Session Layer
+
+- Establishes, manages, and terminates connections between devices.
+- Each active connection is called a **session**.
+- Keeps communication organized between applications.
+
+### Presentation Layer
+
+- Makes data readable between different systems.
+- Acts as a translator and formatter.
+- Handles encryption and decryption of data.
+
+### Application Layer
+
+- The layer closest to the end user.
+- Provides network services to applications.
+- Examples: HTTP, HTTPS, DNS, FTP, SMTP.
+- Applications such as browsers and FileZilla operate here.
