@@ -279,6 +279,42 @@ A UDP packet typically contains:
 - Layer 2: forwards frames to their MAC addresses within the network
 - Layer 3: more sophisticated, can perform tasks like routers, through VLANs allow devices to split up while using the same physical network and be treated differently, so Layer 3 switches can send data between those networks
 
+## DNS (Domain Name System)
+It provides us a simple way to communicate with devices on the internet without remembering complex numbers.
+
+### Domain Hierarchy
+- In hierarchy we have root level, top-level, and second-level domain
+
+### TLD (Top Level Domain)
+- TLD: It's the most right-hand part of a domain, e.g: '.com', '.edu'
+- Two types of TLD are gTLD and ccTLD
+- gTLD: Generic TLDs are used to tell the purpose of a domain e.g: '.com' for commercial, '.edu' for education
+- ccTLD: Country Code TLDs are used for geographical purposes e.g: '.pk' and '.uk'
+
+### Second Level Domain
+- It's usually the organisation/business name e.g: 'codebysavvy.com' the 'codebysavvy' is the second-level domain
+- It can have up to 63 characters including a-z and 0-9, can't have hyphens at the start or end
+
+### Subdomains
+- Sits on the left side of the second-level domain
+- 'admin.codebysavvy.com' follows the same naming rules as second-level domains
+- Can be up to 253 characters long
+
+### DNS Record Types
+- A: Resolves to IPv4 address
+- AAAA: Resolves to IPv6 address
+- CNAME: Resolves to another domain name
+- MX: Resolves to mail server
+- TXT: Can store anything like domain ownership verification, SPF records, or backup email server information
+
+### How DNS Request Works
+- You make a request, computer looks up in local cache
+- If not found request is made to recursive DNS server, usually provided by your ISP, can setup your own
+- Again if not found request is made to root DNS server, which redirects to the TLD server
+- TLD server holds records of where to find the authoritative server, also known as nameserver
+- Depending on DNS record type data is sent back to recursive DNS server, and a copy of the response is saved in cache
+
+
 
 
 
