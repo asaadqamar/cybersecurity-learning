@@ -246,3 +246,40 @@ A UDP packet typically contains:
 - Port scanning helps identify running services.
 - Open ports can expose attack surfaces.
 - Firewalls use ports to allow or block traffic.
+
+## Expanding Your Network
+ 
+### Intro to Port Forwarding
+- An essential component in networking
+- Without it web servers are only accessible to devices within the same network
+- It is configured at the router of the network
+
+### Firewall
+- A device within a network responsible for deciding what traffic enters or exits
+- Two categories of firewall: stateful and stateless
+- Stateful: uses connection information to form and track connections, handshakes can still fail later if the host connection is bad
+- Stateless: only determines if individual packets are allowed or not
+
+### VPN Basics
+- Virtual Private Network
+- Allows devices to communicate over separate networks by creating a dedicated path called a tunnel
+- VPN technologies: PPP, PPTP, IPsec
+- PPP: used by PPTP for authentication and encryption of data, not capable of sending data over the Internet by itself
+- PPTP: Point-to-Point Tunneling Protocol, allows data to travel over the Internet
+- IPsec: encrypts data using the existing IP framework
+
+### Routers
+- Used to connect networks and pass data between them
+- Operate on OSI model Layer 3
+- Often provide interactive interfaces to configure rules such as port forwarding and firewall settings
+
+### Switch
+- A dedicated networking device, provides means to connect multiple devices
+- Two types of switch: Layer 2 and Layer 3
+- Layer 2: forwards frames to their MAC addresses within the network
+- Layer 3: more sophisticated, can perform tasks like routers, through VLANs allow devices to split up while using the same physical network and be treated differently, so Layer 3 switches can send data between those networks
+
+
+
+
+
