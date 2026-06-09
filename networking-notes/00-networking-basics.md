@@ -377,10 +377,13 @@ Common response headers are
 Cookies are used to remind web servers who you're, mostly used to save auth details in token form not easily human readable
 - As HTTP is stateless, cookies are used to store state information between requests
 
+## How Website Works
+Client makes a request and server sends a response. A website has majorly two components:
+- Front-end (client side)
+- Backend (server side)
 
-
-
-
+### HTML Injection
+Suppose a website has a form that updates post comments and the input fields allow HTML/JS, the user can enter a link to malware and store it in the database, and every user of that site can click on that link which can be dangerous.
 
 
 
