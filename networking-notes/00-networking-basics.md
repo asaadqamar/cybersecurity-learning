@@ -314,6 +314,73 @@ It provides us a simple way to communicate with devices on the internet without 
 - TLD server holds records of where to find the authoritative server, also known as nameserver
 - Depending on DNS record type data is sent back to recursive DNS server, and a copy of the response is saved in cache
 
+## HTTP (HyperText Transfer Protocol) in detail
+Its a set of rules used for communication with web servers for transmission of web page data
+
+## HTTPS (HyperText Transfer Protocol Secure)
+- Secure version of HTTP
+- It encrypts data, which stops people from seeing what you're sending or receiving
+- Gives you assurance you're talking to the correct server
+
+## Request and Response
+
+### URL (Uniform Resource Locator)
+- Its an instruction on how to access data on the internet
+- URL has many parts e.g: https://tryhackme.com/blog?id=55#tasks
+- URL parts are scheme (https), host (tryhackme.com), path (/blog), query string (id=55)
+- Other parts of URL are port and fragment
+- To send more sophisticated requests we have headers
+
+### HTTP Methods
+Its a way users show their intended action when making a request, HTTP methods are
+- GET: to fetch data
+- POST: to create new data
+- PUT: to update data
+- DELETE: to delete data
+
+### HTTP Status Codes
+Status code of a request tells the outcome of the request, status codes have 5 ranges
+- 100 to 199: informational responses, not very common
+- 200 to 299: request is successful
+- 300 to 399: being redirected to another resource
+- 400 to 499: error on client side
+- 500 to 599: reserved for server side errors
+
+Most common status codes are:
+- 200: OK
+- 201: Created
+- 301: Moved Permanently
+- 302: Found
+- 400: Bad Request
+- 401: Unauthorized
+- 403: Forbidden
+- 405: Method Not Allowed
+- 404: Page Not Found
+- 500: Internal Server Error
+- 503: Service Unavailable
+
+### Headers
+Headers are additional bits of data you can send to web servers, common request headers are
+- Host (name of website)
+- User-Agent (browser details)
+- Content-Length
+- Accept-Encoding
+- Cookie
+
+Common response headers are
+- Set-Cookie
+- Cache-Control
+- Content-Type
+- Content-Encoding
+
+### Cookie
+Cookies are used to remind web servers who you're, mostly used to save auth details in token form not easily human readable
+- As HTTP is stateless, cookies are used to store state information between requests
+
+
+
+
+
 
 
 
