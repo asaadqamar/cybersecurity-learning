@@ -385,6 +385,38 @@ Client makes a request and server sends a response. A website has majorly two co
 ### HTML Injection
 Suppose a website has a form that updates post comments and the input fields allow HTML/JS, the user can enter a link to malware and store it in the database, and every user of that site can click on that link which can be dangerous.
 
+# Inside a Computer
+
+## Physical Parts of Computer
+- Motherboard: Every component plugs into or connects through the motherboard.
+- CPU (Central Processing Unit): Often called processor, executes instructions and performs calculations.
+- RAM (Random Access Memory): Stores data temporarily.
+- Storage (SSD/HDD): Stores data long-term.
+- Network Adapter: Enables the computer to communicate with other computers and networks.
+- Power Supply Unit: Supplies electricity to all components.
+- Graphics Card: Primarily handles processing and outputting visual information to displays.
+- I/O Devices: Used to send and receive data from the computer.
+
+## How Computer Starts
+
+### Press the Power Button
+Once you press the power button, it sends a signal to the PSU to allow power flow.
+
+### Firmware Start
+Computer systems contain firmware that allows components to start up. The central system that manages it is called Unified Extensible Firmware Interface (UEFI). We'll often see BIOS mentioned instead of UEFI, BIOS serves the same purpose.
+
+### Power On Self Test (POST)
+One of the routines that UEFI loads is Power On Self Test.
+It tests if required components are present, configured correctly, and functioning.
+
+### Select Boot Device
+UEFI holds a boot order list, it prioritizes which devices to look at first to boot the OS.
+
+### Initiate Bootloader
+On the selected device the bootloader is initiated, it transfers the OS kernel from storage into RAM. Once loaded, the bootloader hands control over to the operating system.
+
+
+
 
 
 
