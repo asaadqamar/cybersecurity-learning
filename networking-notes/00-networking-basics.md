@@ -448,6 +448,24 @@ Most common computer types are laptops, desktops, workstations, servers, smartph
 - A lightweight, isolated environment that runs a single application and all the necessary components to support it
 - Unlike VM they share the host OS kernel
 
+# Cloud Computing Origin
+- AWS simplified how servers are accessible to startups and developers
+- Before AWS cloud, if you needed servers for a startup, either you bought them from Dell/HP or rented from a service provider, but you had to configure everything yourself like load balancers etc, and it could take months
+- Amazon solved it by making servers accessible through APIs and if your traffic suddenly skyrockets you don't have to wait months to set up servers or rent from a provider, and when traffic goes back to normal you can scale down instead of letting servers sit idle
+- Amazon basically automated the infrastructure
 
+## Type of Cloud Deployments
+- Public Cloud: Used by startups and global apps, easy to scale, affordable
+- Private Cloud: Used by banks, healthcare and government who care more about security, compliance, control and customization
+- Hybrid Cloud: Used by e-commerce and enterprises by keeping sensitive data private yet scaling publicly
+
+## Cloud Service Models
+- Infrastructure as a Service (IaaS): You rent virtual servers, storage and networking, manage your own OS and applications while the provider takes care of the hardware
+- Platform as a Service (PaaS): You only focus on building, deploying and running your application, the rest is taken care of by the provider
+- Software as a Service (SaaS): You use a complete application as a service through an app or browser e.g: email, Zoom You use a complete application as a service through an app or browser e.g: email, Zoom
+
+## Basics of AWS
+- EC2 (virtual computer/server): Represents a virtual machine in the cloud, has CPU and memory, can run applications
+- Instance Types (t2, t3, m5): These describe how powerful the virtual computer is, you choose an instance based on your needs
 
 
