@@ -424,6 +424,29 @@ Most common computer types are laptops, desktops, workstations, servers, smartph
 - IoT devices connect to networks to report data and receive commands
 - Embedded computers might not connect to anything, they do their job inside a machine, often for years without users knowing they exist.
 
+# Virtualization
+- Imagine if every website required its own server, how costly and inefficient that would be
+- To solve this exact problem virtualization was introduced
+
+## Hypervisor
+- It's the virtualization layer
+- A software that acts as a referee to allow multiple VMs to behave independently
+- Lab machines are virtual computers created using a hypervisor
+- There are two types of implementation: Type 1 and Type 2
+
+### Type 1
+- Runs directly on physical hardware, ideal for servers and professional environments
+
+### Type 2
+- Runs within an operating system, easier to install, ideal for learning, testing and small setups
+
+## Lab Machine (VM)
+- It's a computer created by a hypervisor
+- It behaves like a real machine
+
+## Containers
+- A lightweight, isolated environment that runs a single application and all the necessary components to support it
+- Unlike VM they share the host OS kernel
 
 
 
