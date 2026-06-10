@@ -415,7 +415,14 @@ UEFI holds a boot order list, it prioritizes which devices to look at first to b
 ### Initiate Bootloader
 On the selected device the bootloader is initiated, it transfers the OS kernel from storage into RAM. Once loaded, the bootloader hands control over to the operating system.
 
+## Computer Types
+Most common computer types are laptops, desktops, workstations, servers, smartphones, tablets, IoT devices and embedded computers.
 
+### IoT & Embedded Computers
+- Both can be small and single purpose
+- The difference is connectivity
+- IoT devices connect to networks to report data and receive commands
+- Embedded computers might not connect to anything, they do their job inside a machine, often for years without users knowing they exist.
 
 
 
