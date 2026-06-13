@@ -468,4 +468,42 @@ Most common computer types are laptops, desktops, workstations, servers, smartph
 - EC2 (virtual computer/server): Represents a virtual machine in the cloud, has CPU and memory, can run applications
 - Instance Types (t2, t3, m5): These describe how powerful the virtual computer is, you choose an instance based on your needs
 
+# Operating System
+- Core software that coordinates everything happpening on computer, like an invinsible manager that keep entire machine runnig as unified system
+- Without OS every application would need direct access to emeory, CPU and storage which would cause conflict
+ - Mainly two type of spaces OS oprate in Kernel, User space
+
+ ## Kernel Space
+ - It's privliged locked down core of OS, Kernel directly manages hardware and system resources
+ - It has unristrected access to CPU, memory, storege and all hardware componenet
+
+ ## User Space 
+- All standred applications here
+- Application in user space are delibrtly prevented from accessing hardware directly
+
+## OS duties
+- Process Managment: Creates, schedules, priortizes and terminates running programs.
+- Memory managment: Allocates RAM to process, protect app memory, recliams memory when app are used.
+- File system Managment: Organize into directries, handle naming, path, permission,metadata
+- User Managment: Handle multilpe user account, auth and permission
+- Device Managment: Loads driver and provides a universal interface
+
+### OS Security
+Every OS acts as an security foundation. Before firewall or antivirus OS already enforce protection in background.
+
+## OS Interfaces & Types
+- Two type of interfaces GUI and CLI
+
+### Desktop
+- Window, MAC, Linux
+
+### Mobile
+- Andriod & IOS
+
+### Embedded and IOT
+- Embeded Linux, Real time OS
+
+### Vortual and Cloud
+- Cloud V/M, Container Optimization
+
 
